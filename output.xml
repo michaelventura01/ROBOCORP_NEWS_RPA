@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on win32)" generated="20240722 23:30:22.325" rpa="true" schemaversion="4">
+<suite id="s1" name="Tasks" source="c:\Users\micha\OneDrive\Documentos\PROJECTS\NEWS_ROBOCROP_RPA\tasks.robot">
+<test id="s1-t1" line="22">
+<status status="FAIL" starttime="20240722 23:30:25.176" endtime="20240722 23:30:25.178">Task name cannot be empty.</status>
+</test>
+<doc>Robot Framework script to scrape news from Al Jazeera website</doc>
+<status status="FAIL" starttime="20240722 23:30:22.333" endtime="20240722 23:30:25.185"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240722 23:30:25.175" level="WARN">No input work items file found: None</msg>
+<msg timestamp="20240722 23:30:25.180" level="ERROR">Releasing item '0' with FAILED state and exception: {'type': 'APPLICATION', 'code': None, 'message': 'Task name cannot be empty.'}</msg>
+</errors>
+</robot>
